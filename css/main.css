@@ -86,7 +86,7 @@ textarea {
    /* General Styles */
 
    body {
-    font-size: 1 em;
+    font-size: 1em;
     font-family: 'Open Sans', sans-serif;
     color: #351D77;
     background-color: white;
@@ -443,6 +443,7 @@ textarea {
 
   footer h4 {
     width: 100%;
+    font-size: 1.5rem;
   }
 
   footer .follow-section {
