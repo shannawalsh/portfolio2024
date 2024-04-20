@@ -970,6 +970,8 @@ textarea {
   #about figure {
     width: 35%;
     margin-top: 0;
+    display:flex;
+    align-self: center;
   }
 
   .about-info {
