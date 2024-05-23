@@ -140,7 +140,6 @@ textarea {
   .project-link,
   .language-wrapper,
   .tool-wrapper p {
-    text-transform: uppercase;
     font-size: 1.125rem;
     color: #351d77;
   }
@@ -378,6 +377,7 @@ textarea {
 
   .project-link {
     background-color: #ec91c4;
+    text-transform: uppercase;
     padding: .75rem 3.75rem;
     border-radius: 30px;
     color: #351d77;
@@ -716,7 +716,6 @@ textarea {
     justify-content: space-evenly;
     width: 100%;
     flex-flow: row wrap;
-    text-transform: uppercase;
   }
 
   .skill,
@@ -957,7 +956,7 @@ textarea {
   
   .skill,
   .tool {
-    width: 35%;
+    width: 30%;
   }
 
   /* about */
