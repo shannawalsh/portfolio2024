@@ -85,7 +85,7 @@ textarea {
    ========================================================================== */
    /* General Styles */
 
-   body {
+  body {
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;
     color: #351D77;
@@ -579,6 +579,10 @@ textarea {
     font-size: 2.5rem;
   }
 
+  h2 {
+    margin-top: 80px;
+  }
+
   h2, 
   h5 {
     font-size: 1.5rem;
@@ -602,7 +606,6 @@ textarea {
     margin: 0 0 80px 0;
   }
 
-  /* #work */
   #work {
     padding-top: 80px;
   }
@@ -611,16 +614,8 @@ textarea {
     padding: 80px 0;
   }
 
-  footer {
-    padding: 140px 0 80px 0;
-  }
-
   #about {
     padding: 80px 0;
-  }
-
-  h2 {
-    margin-top: 80px;
   }
 
   .portfolio-header {
@@ -656,6 +651,10 @@ textarea {
     margin: 0 0 30px 0;
   }
 
+  footer {
+    padding: 140px 0 80px 0;
+  }
+
   .contact-info {
     margin: 80px 0;
   }
@@ -663,7 +662,7 @@ textarea {
   .contact-title {
     margin: 0 0 30px 0;
   }
-
+  
   /* header */
 
   header .content-wrapper {
@@ -849,6 +848,10 @@ textarea {
     margin-bottom: 80px;
   }
 
+  h2 {
+    margin: 40px 0 0 0;
+  }
+
   #work {
     padding-top: 80px;
   }
@@ -860,14 +863,6 @@ textarea {
   #about {
     padding-top: 80px;
     padding-bottom: 80px;
-  }
-
-  footer {
-    padding: 140px 0;
-  }
-
-  h2 {
-    margin: 40px 0 0 0;
   }
 
   .portfolio-header {
@@ -905,6 +900,10 @@ textarea {
 
   .about-text {
     margin: 0 0 30px 0;
+  }
+
+  footer {
+    padding: 140px 0;
   }
 
   .contact-info {
