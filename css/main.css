@@ -984,6 +984,12 @@ textarea {
 
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  html {
+      scroll-behavior: smooth;  
+  }
+}
+
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
