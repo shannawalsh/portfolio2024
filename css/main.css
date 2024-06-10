@@ -353,12 +353,13 @@ textarea {
     border: none;
     outline: none;
     background-color: #f4bedc; 
+    opacity: 0.6;
     color: #351d77;
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
   }
-  
+
   #backToTopBtn:hover {
     background-color: #eC91c4;
     color: white;
@@ -1009,6 +1010,12 @@ textarea {
     max-width: 70%;
   }
 
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+      scroll-behavior: smooth;  
+  }
 }
 
 @media print,
