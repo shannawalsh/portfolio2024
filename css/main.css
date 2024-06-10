@@ -353,7 +353,7 @@ textarea {
     border: none;
     outline: none;
     background-color: #f4bedc; 
-    opacity: 0.6;
+    opacity: 0.7;
     color: #351d77;
     cursor: pointer;
     padding: 15px;
@@ -363,6 +363,19 @@ textarea {
   #backToTopBtn:hover {
     background-color: #eC91c4;
     color: white;
+  }
+
+  .visually-hidden {
+    /* Hides the text for the anchor link in the icons while making it accessible to screen readers */
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
   }
 
   /* -----Mobile Styles ----- */
