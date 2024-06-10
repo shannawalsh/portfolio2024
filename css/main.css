@@ -353,6 +353,7 @@ textarea {
     border: none;
     outline: none;
     background-color: #f4bedc; 
+    opacity: 0.6;
     color: #351d77;
     cursor: pointer;
     padding: 15px;
